@@ -25,3 +25,29 @@
   font-style: normal;
   font-size: 1.5rem;
 }
+.container{
+  display: flex;
+  flex-direction:row;
+  width:100%;
+  align-items: center;
+  justify-content: center;
+  height:50rem;
+  margin-top: 1rem;
+  background-color: aqua;
+  gap:5%;
+  padding:1rem 5%;
+
+}
+
+.itembox{
+  display: flex;
+  flex-direction:column;
+  width:33%;
+  align-items: center;
+  justify-content: left;
+  height:45rem;
+  
+  background-color: rgb(0, 255, 64);
+  gap:2rem;
+  padding:1rem 3rem;
+}

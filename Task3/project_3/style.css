@@ -2,7 +2,8 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-
+    background-color: rgb(29, 29, 29);
+    color:white;
 }
 
 
@@ -10,6 +11,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    width:100%;
 }
 
 .boldtext {
@@ -25,3 +27,4 @@
   font-style: normal;
   font-size: 1.5rem;
 }
+

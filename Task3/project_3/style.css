@@ -1,17 +1,15 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-    background-color: rgb(29, 29, 29);
-    color:white;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
 }
 
-
-.center{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width:100%;
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 
 .boldtext {
@@ -28,3 +26,33 @@
   font-size: 1.5rem;
 }
 
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(29, 29, 29);
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.imagecontainer {
+  
+}
+
+.details {
+}
+
+img {
+}
+
+h2 {
+}
+
+p {
+}

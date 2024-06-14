@@ -25,3 +25,15 @@
   font-style: normal;
   font-size: 1.5rem;
 }
+.botton {
+  height: 5rem;
+  width: 13rem;
+  background-color: rgb(0, 132, 255);
+  border-radius: 0.5rem;
+  border: none;
+  color: aliceblue;
+  font-family: "Istok Web", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.75rem;
+}

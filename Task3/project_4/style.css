@@ -40,43 +40,56 @@
 
 .container{
   display:grid;
-  grid-template: 10vw 10vw 10vw/10vw 30vw 10vw;
+  height:30vw;
+  width:50vw;
+  grid-template-areas: 'image1 details1 details1 details1  button1''image2 details2 details2 details2 button2''image3 details3 details3 details3 button3';
 }
 
 .imagecontainer{
 width: 80%;
 height: 80%;
 border-radius: 50%;
+object-fit: cover;
 }
 
 .image1{
   grid-area: image1;
+  background-color: blanchedalmond;
 }
 .image2{
-  grid-area: image3;
+  grid-area: image2;
+  background-color: blanchedalmond;
 }
 .image3{
   grid-area: image3;
+  background-color: blanchedalmond;
 }
 
 .details1{
   grid-area:details1;
+  background-color: aqua;
 }
 .details2{
   grid-area:details2;
+  background-color: aqua;
 }
 .details3{
   grid-area:details3;
+  background-color: aqua;
 }
 
 .button1{
   grid-area: button1;
+  background-color: aquamarine;
 }
 .button2{
   grid-area: button2;
+  background-color: aquamarine;
 }
 .button3{
   grid-area: button3;
+  background-color: aquamarine;
 }
+
 
 

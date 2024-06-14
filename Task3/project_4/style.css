@@ -49,3 +49,34 @@ height: 80%;
 border-radius: 50%;
 }
 
+.image1{
+  grid-area: image1;
+}
+.image2{
+  grid-area: image3;
+}
+.image3{
+  grid-area: image3;
+}
+
+.details1{
+  grid-area:details1;
+}
+.details2{
+  grid-area:details2;
+}
+.details3{
+  grid-area:details3;
+}
+
+.button1{
+  grid-area: button1;
+}
+.button2{
+  grid-area: button2;
+}
+.button3{
+  grid-area: button3;
+}
+
+

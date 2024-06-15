@@ -43,8 +43,7 @@
   height:30vw;
   width:50vw;
   grid-template: 1fr 1fr 1fr/1fr 2.75fr 1.25fr;
-  align-items: center;
-  justify-content: center;
+  
   
 }
 
@@ -52,25 +51,37 @@
 width: 80%;
 height: 80%;
 border-radius: 50%;
-object-fit: cover;
+background-color: blanchedalmond;
+
+}
+
+img{
+  object-fit: cover;
+}
+
+button{
+  margin:auto;
 }
 
 .image1{
   grid-area: image1;
   grid-row: 1;
   grid-column: 1;
+  min-height: 10vw;
   background-color: blanchedalmond;
 }
 .image2{
   grid-area: image2;
   grid-row: 2;
   grid-column: 1;
+  min-height: 10vw;
   background-color: blanchedalmond;
 }
 .image3{
   grid-area: image3;
   grid-row: 3;
   grid-column: 1;
+  min-height: 10vw;
   background-color: blanchedalmond;
 }
 
@@ -78,18 +89,21 @@ object-fit: cover;
   grid-area:details1;
   grid-row: 1;
   grid-column: 2;
+  min-height: 10vw;
   background-color: aqua;
 }
 .details2{
   grid-area:details2;
   grid-row: 2;
   grid-column: 2;
+  min-height: 10vw;
   background-color: aqua;
 }
 .details3{
   grid-area:details3;
   grid-row: 3;
   grid-column: 2;
+  min-height: 10vw;
   background-color: aqua;
 }
 
@@ -97,6 +111,7 @@ object-fit: cover;
   grid-area: button1;
   grid-row: 1;
   grid-column: 3;
+  min-height: 10vw;
   background-color: aquamarine;
   
 }
@@ -104,14 +119,23 @@ object-fit: cover;
   grid-area: button2;
   grid-row: 2;
   grid-column: 3;
+  min-height: 10vw;
   background-color: aquamarine;
 }
 .button3{
   grid-area: button3;
   grid-row: 3;
   grid-column: 3;
+  min-height: 10vw;
   background-color: aquamarine;
 }
 
+.item{
+  align-items: center;
+  justify-content: center;
+  min-height:10vw;
+  padding:.75vw;
+  border:1px dotted black;
+}
 
 

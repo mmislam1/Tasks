@@ -51,17 +51,15 @@
 width: 80%;
 height: 80%;
 border-radius: 50%;
-background-color: blanchedalmond;
+background-color: rgb(255, 205, 205);
 
 }
 
 img{
-  object-fit: cover;
+  object-fit:cover;
 }
 
-button{
-  margin:auto;
-}
+
 
 .image1{
   grid-area: image1;
@@ -131,10 +129,10 @@ button{
 }
 
 .item{
+  display:flex;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
   min-height:10vw;
-  padding:.75vw;
   border:1px dotted black;
 }
 

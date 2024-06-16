@@ -48,15 +48,18 @@
 }
 
 .imagecontainer{
-width: 80%;
-height: 80%;
+display:flex;
+width: 90%;
+height: 90%;
 border-radius: 50%;
 background-color: rgb(255, 205, 205);
-
+overflow: hidden;
 }
 
 img{
   object-fit:cover;
+  height: 100%;
+  width:100%;
 }
 
 
@@ -89,6 +92,7 @@ img{
   grid-column: 2;
   min-height: 10vw;
   background-color: aqua;
+  padding: 5% 5% 5% 5%;
 }
 .details2{
   grid-area:details2;
@@ -96,6 +100,8 @@ img{
   grid-column: 2;
   min-height: 10vw;
   background-color: aqua;
+  padding: 5% 5% 5% 5%;
+
 }
 .details3{
   grid-area:details3;
@@ -103,6 +109,8 @@ img{
   grid-column: 2;
   min-height: 10vw;
   background-color: aqua;
+  padding: 5% 5% 5% 5%;
+
 }
 
 .button1{

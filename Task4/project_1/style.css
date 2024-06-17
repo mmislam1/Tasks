@@ -14,20 +14,45 @@
 
 .container{
   display:grid;
-  height:33vw;
+  height:100vw;
   width:100vw;
-  grid-template: 1fr 1fr/1fr 1fr 1fr 1fr 1fr 1fr;
+  padding:1vw;
+  align-items: center;
+  justify-content: center;
+  grid-template: 1fr 1fr/1fr 1fr;
   border: 1px solid gray;
   border-radius: 1vw;
   background-color: black;
   
+}
+.itemcontainer{
+  display:grid;
+  height: 47vw;
+  width:47vw;
+  gap:4vw;
+  grid-template: 1fr 1fr/1fr 1fr;
+  border: 1px solid gray;
+  border-radius: 1vw;
+  background-color: rgb(255, 102, 0);
+}
+.item1{
+grid: 1/1;
+}
+.item2{
+grid: 1/2;
+}
+.item3{
+grid: 2/1;
+}
+.item4{
+grid: 2/2;
 }
 
 .boldtext {
   font-family: "Istok Web", sans-serif;
   font-weight: 500;
   font-style: normal;
-  font-size: 3.5rem;
+  font-size: 2.5rem;
 }
 
 .regulartext {

@@ -58,7 +58,7 @@ grid: 2/2;
   font-weight: 400;
   font-style: normal;
   font-size: 1.25vw;
-  margin:.35vw
+  margin:.35vw;
 }
 .imagecontainer{
   grid-row: 2;

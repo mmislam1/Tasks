@@ -27,7 +27,7 @@
   font-family: "Istok Web", sans-serif;
   font-weight: 500;
   font-style: normal;
-  font-size: 3.5rem;
+  font-size: 2vw;
 }
 
 .regulartext {
@@ -54,8 +54,7 @@ img{
   flex-direction: column;
   align-items:flex-start;
   justify-content: center;
-  grid-row:2;
-  grid-column:2/ span 3; 
+   
   padding:5%;
 }
 
@@ -67,6 +66,50 @@ h3{
   display: flex;
   align-items: center;
   justify-content: center;
-  grid-row: 2;
-  grid-column: 5/ span 2;
+}
+
+.navbar{
+  width:100vw;
+  height: 5vw;
+  background-color: black;
+  color: White;
+  display: flex;
+  flex-direction: row;
+  
+  justify-content:space-between;
+  align-items: center;
+  padding:1vw 2vw;
+
+
+}
+
+.navelem{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color:black;
+  gap: 2vw;
+
+}
+
+.navbar>h3{
+  margin:auto 1vw;
+}
+
+.button{
+  height:3vw;
+  width:7vw;
+  border: 1px solid white;
+  background-color: black;
+  border-radius: 1.5vw;
+}
+
+a{
+  text-decoration: none;
+  color:white;
+  font-family: "Istok Web", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.25vw;
 }

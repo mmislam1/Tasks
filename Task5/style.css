@@ -20,7 +20,7 @@
   min-height: 40vw;
   width:100vw;
   border-radius: 1vw;
-  background-color: black;
+  
   
 }
 
@@ -162,7 +162,7 @@ padding:5vw;
   display:flex;
   flex-direction: row;
   align-items:center;
-  justify-content:space-evenly;
+  justify-content:space-between;
 }
 
 .skills{
@@ -197,7 +197,7 @@ padding:5vw;
   flex-direction: column;
   align-items:start;
   justify-content:space-evenly;
-  padding-left:15%;
+  
   gap:2vw;
 }
 
@@ -220,7 +220,7 @@ textarea{
   align-items:start;
   justify-content:space-between;
   gap:2vw;
-  padding-left: 15%;
+  
 }
 .contact>form{
   width:50%;
@@ -231,4 +231,12 @@ textarea{
 }
 .project>p{
   margin-top:1vw;
+}
+.project>h4{
+  font-size: 2rem;
+}
+
+.projects>h3{
+  font-size: 2.5rem;
+  font-weight: 500;
 }

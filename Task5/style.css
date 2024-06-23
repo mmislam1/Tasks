@@ -152,6 +152,10 @@ padding:5vw;
   border-radius: .35vw;
   margin: 3vw;
   color:white;
+  font-family: "Istok Web", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.25vw;
 }
 
 .intro{
@@ -214,5 +218,17 @@ textarea{
   display:flex;
   flex-direction: column;
   align-items:start;
-  justify-content:space-evenly;
+  justify-content:space-between;
+  gap:2vw;
+  padding-left: 15%;
+}
+.contact>form{
+  width:50%;
+
+}
+.contact>form>button{
+  margin-top: 3vw;
+}
+.project>p{
+  margin-top:1vw;
 }

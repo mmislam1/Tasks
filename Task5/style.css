@@ -165,6 +165,9 @@ border:1px solid gray;
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
+  border: 1px solid black;
+  border-radius: 2rem;
+  background-color: rgb(207, 207, 207);
 }
 
 .skill{
@@ -177,6 +180,7 @@ border:1px solid gray;
   width: 15vw;
   height: 10vw;
   padding: 2vw;
+  background-color: aliceblue;
 }
 
 .skill>h2{

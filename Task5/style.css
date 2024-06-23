@@ -142,7 +142,7 @@ a{
   height:fit-content;
 width: 100%;
 padding:5vw;
-border:1px solid gray;
+
 }
 .button1{
   height:3vw;
@@ -151,6 +151,7 @@ border:1px solid gray;
   background-color: rgb(68, 68, 68);
   border-radius: .35vw;
   margin: 3vw;
+  color:white;
 }
 
 .intro{
@@ -165,9 +166,9 @@ border:1px solid gray;
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
-  border: 1px solid black;
+  border: 1px solid rgb(71, 71, 71);
   border-radius: 2rem;
-  background-color: rgb(207, 207, 207);
+  background-color: rgb(231, 231, 231);
 }
 
 .skill{
@@ -185,4 +186,33 @@ border:1px solid gray;
 
 .skill>h2{
   margin-bottom: 1rem;
+}
+
+.projects{
+  display:flex;
+  flex-direction: column;
+  align-items:start;
+  justify-content:space-evenly;
+  padding-left:15%;
+  gap:2vw;
+}
+
+input{
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+textarea{
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.contact{
+  display:flex;
+  flex-direction: column;
+  align-items:start;
+  justify-content:space-evenly;
 }

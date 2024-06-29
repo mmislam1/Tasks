@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="mmislam" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap"></link>
+
+    <title>Task 3</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="grid grid-cols-1 bg-slate-500 font-sans">
+      <nav class="grid grid-cols-1 grid-rows-2 align-center justify-between bg-slate-700 p-9 text-white">
+        <h3 class="font-semibold text-5xl">MOHAIMINUL ISLAM</h3>
+        <div class="navelem"> 
+          <button class="button">
+            <a href="#" class="links">About</a>
+          </button>
+          <button class="button">
+            <a href="#" class="links">Skills</a>
+          </button>
+          <button class="button">
+            <a href="#" class="links">Projects</a>
+          </button>
+          <button class="button">
+            <a href="#" class="links">Contact</a>
+          </button>
+        </div>
+      </nav>
+
+      <div class="maincontainer center">
+        <div class="container">
+          <div class="intro section">
+            <div class="details">
+              <p class="regulartext">I am Mohaiminul Islam. A MERN stack developer.</p>
+              <button class="button1"><a href="https://docs.google.com/document/d/113CD8gvhpQfsvuRv_UqBiPzImPDSmV4AfMt64hFMTDg/edit?usp=sharing">Link to my Resume</a></button>
+            </div>
+            <div class="imagecontainer">
+              <img src="mm.jpg" alt="mm">
+            </div>
+          </div>
+
+          <div class="skills section">
+            <div class="skill">
+              <h2 class="boldtext">React</h2>
+              <p class="regulartext">React for dynamic front end application.</p>
+            </div>
+            <div class="skill">
+              <h2 class="boldtext">Express.js</h2>
+              <p class="regulartext">Express.js for fast backend server.</p>
+            </div>
+            <div class="skill">
+              <h2 class="boldtext">MongoDB</h2>
+              <p class="regulartext">A noSQL database for flexibility.</p>
+            </div>
+          </div>
+
+          <div class="projects section">
+            <h3 class="boldtext">My projects</h3>
+            <div class="project">
+              <h4 class="boldtext">Project 1 </h4>
+              <p class="regulartext">Done using MERN stack</p>
+            </div>
+            <div class="project">
+              <h4 class="boldtext">Project 2 </h4>
+              <p class="regulartext">Done using Laravel</p>
+            </div>
+          </div>
+
+          <div class="contact section">
+            <form action="https://formspree.io/f/xzzppron" method="POST">
+              
+                <h3 class="boldtext">Contact</h3>
+                <input type="text" name="name" placeholder="Your Name"/>
+              
+                
+                <input type="number" name="phone" placeholder="Your Phone Number" />
+              
+                
+                <input type="email" name="email" placeholder="Your Email" />
+              
+          
+                <textarea name="message" placeholder="Write to Author"></textarea>
+              
+              
+              <button class="button1" type="submit">Send</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

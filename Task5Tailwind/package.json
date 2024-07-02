@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/mmislam1/Tasks/issues"
   },
-  "homepage": "https://github.com/mmislam1/Tasks/tree/main#readme"
+  "homepage": "https://github.com/mmislam1/Tasks/tree/main#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
+  },
+  "dependencies": {
+    "gitignore": "^0.7.0"
+  }
 }

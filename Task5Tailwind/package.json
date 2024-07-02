@@ -1,0 +1,19 @@
+{
+  "name": "task5tailwind",
+  "version": "1.0.0",
+  "description": "Portfolio with basic HTML and tailwind",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmislam1/Tasks.git#main"
+  },
+  "author": "mmislam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mmislam1/Tasks/issues"
+  },
+  "homepage": "https://github.com/mmislam1/Tasks/tree/main#readme"
+}
